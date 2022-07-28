@@ -1,157 +1,289 @@
-make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.81
-# Copyright (C) 2006  Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.
-# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.
-
-# This program built for i386-apple-darwin11.3.0
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Wed Jul 27 15:55:14 2022
+# Make data base, printed on Thu Jul 28 05:15:50 2022
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
 # environment
-VSCODE_LOG_NATIVE = false
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
-# makefile
- 
-CURDIR := /Users/fiifigemini/Documents/kubernetes-machine-learning/DevOps_Microservices/project-ml-microservice-kubernetes/microservice-kiubernetes-project
-# makefile
-SHELL = /bin/sh
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+SYSTEMDRIVE = C:
 # environment
-_ = /usr/bin/make
-# makefile (from `Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
+JAVA_HOME = C:\Program Files\Java\jdk-15.0.2
 # environment
-VSCODE_VERBOSE_LOGGING = true
+LC_ALL = C
 # environment
-__CFBundleIdentifier = com.microsoft.VSCode
+USERPROFILE = C:\Users\PC
 # environment
-INFOPATH = /opt/homebrew/share/info:
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/4x/htq5s_bj5x9117ww11zzpk3h0000gn/T/vscode-ipc-4f884606-710c-4079-ae6b-1145f7134ae7.sock
+TMPDIR = C:\Users\PC\AppData\Local\Temp
 # environment
-VSCODE_CWD = /
+LOCALAPPDATA = C:\Users\PC\AppData\Local
 # environment
-PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/fiifigemini/Library/Application Support/JetBrains/Toolbox/scripts
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4cee6715-fa60-4253-899e-2d86497d21b4-sock
 # environment
-VSCODE_LOG_STACK = false
+VSCODE_CWD = C:\Users\PC\Documents\GitHub\microservice-kiubernetes-project
 # environment
-ELECTRON_RUN_AS_NODE = 1
+MINGW_PREFIX = C:/Program Files/Git/mingw64
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
-.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
-# environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.WlmM8aF15o/Listeners
+MAKE_COMMAND := make.exe
 # automatic
-%F = $(notdir $%)
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-VSCODE_PIPE_LOGGING = true
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
 # environment
-PWD = /Users/fiifigemini/Documents/kubernetes-machine-learning/DevOps_Microservices/project-ml-microservice-kubernetes/microservice-kiubernetes-project
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11156_UGJJUCFQIHYIRROT
 # environment
-HOMEBREW_CELLAR = /opt/homebrew/Cellar
+ORIGINAL_TEMP = C:/Users/PC/AppData/Local/Temp
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-MANPATH = /opt/homebrew/share/man::
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /Users/fiifigemini
-# default
-MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
-# environment
-VSCODE_CODE_CACHE_PATH = /Users/fiifigemini/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
-# environment
-LOGNAME = fiifigemini
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-XPC_FLAGS = 0x0
-# default
-MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
-# environment
-SHLVL = 1
-# environment
-JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
-# default
-MAKE_VERSION := 3.81
-# environment
-USER = fiifigemini
-# makefile
-.DEFAULT_GOAL := setup
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# default
-MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
 .VARIABLES := 
 # environment
-TMPDIR = /var/folders/4x/htq5s_bj5x9117ww11zzpk3h0000gn/T/
+PWD = C:/Users/PC/Documents/GitHub/microservice-kiubernetes-project
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+HOSTNAME = DESKTOP-OTPMO7G
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\PC\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+SSH_ASKPASS = C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\PC\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# environment
+ONEDRIVE = C:\Users\PC\OneDrive
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\bin;
+# makefile
+CURDIR := c:/Users/PC/Documents/GitHub/microservice-kiubernetes-project
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+MSYSTEM_CARCH = x86_64
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+WALLABY_PRODUCTION = true
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 11156
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+MINGW_CHOST = x86_64-w64-mingw32
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/fiifigemini/Library/Application Support/Code/1.67.2-main.sock
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\PC\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
 # makefile
-MAKEFLAGS = Rrqp
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
 # environment
-MFLAGS = -Rrqp
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\PC\bin;C:\Users\PC\AppData\Local\Programs\Python\Python310;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.2\bin;C:\apache-maven-3.6.3\bin;C:\spring-2.3.7.RELEASE\bin;C:\Program Files\nodejs;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\dotnet;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Kubernetes\Minikube;C:\Users\PC\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\PC\AppData\Local\Programs\Python\Python310;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\bin;C:\Users\PC\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\PC\AppData\Local\GitHubDesktop\bin;C:\redis;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;C:\Users\PC\Documents\flutter_windows_2.2.3-stable\flutter\bin;C:\Users\PC\.dotnet\tools
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.848569.848575
+HOMEPATH = \Users\PC
+# default
+MAKECMDGOALS := all
 # environment
-HOMEBREW_PREFIX = /opt/homebrew
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# automatic
-+F = $(notdir $+)
+SHLVL = 2
 # environment
-HOMEBREW_REPOSITORY = /opt/homebrew
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
-COMMAND_MODE = unix2003
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Users\PC\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\PC\bin;C:\Users\PC\AppData\Local\Programs\Python\Python310;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-15.0.2\bin;C:\apache-maven-3.6.3\bin;C:\spring-2.3.7.RELEASE\bin;C:\Program Files\nodejs;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\dotnet;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Kubernetes\Minikube;C:\Users\PC\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\PC\AppData\Local\Programs\Python\Python310;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.4\bin;C:\Users\PC\AppData\Roaming\npm;C 
+:\Program Files\MongoDB\Server\4.4\bin;C:\Users\PC\AppData\Local\GitHubDesktop\bin;C:\redis;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;C:\Users\PC\Documents\flutter_windows_2.2.3-stable\flutter\bin;C:\Users\PC\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-OTPMO7G
 # default
 MAKEFILES := 
 # automatic
+^F = $(notdir $^)
+# environment
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
+# environment
+PROMPT = $P$G
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\bin;
+# environment
+LOGONSERVER = \\DESKTOP-OTPMO7G
+# environment
+SPRING_HOME = C:\spring-2.3.7.RELEASE
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = PC
+# environment
+TERM_PROGRAM = mintty
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+CONFIG_SITE = C:/Program Files/Git/mingw64/etc/config.site
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MAVEN_HOME = C:\apache-maven-3.6.3
+# environment
+USERDOMAIN = DESKTOP-OTPMO7G
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+# makefile
+.DEFAULT_GOAL := setup
+# environment
+DISPLAY = needs-to-be-defined
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-OTPMO7G
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+ASL.LOG = Destination=file
+# environment
+_ = C:/Users/PC/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# environment
+APPDATA = C:\Users\PC\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+M2_HOME = C:\apache-maven-3.6.3
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+MSYSTEM = MINGW64
+# environment
+HOME = C:\Users\PC
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+EXEPATH = C:\Program Files\Git
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\PC\AppData\Local\Temp
+# environment
+TERM = xterm
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ea75601404b968667eb2f78a0de0635a-1.68.0-main-sock
+# default
+.RECIPEPREFIX := 
+# environment
+ORIGINAL_TMP = C:/Users/PC/AppData/Local/Temp
+# automatic
 <F = $(notdir $<)
 # environment
-LC_ALL = C
-# automatic
-^F = $(notdir $^)
+PLINK_PROTOCOL = ssh
 # default
 SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
-.INCLUDE_DIRS = /usr/local/include
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
-MAKELEVEL := 0
+PROCESSOR_REVISION = 8e09
 # environment
-LANG = C
+TERM_PROGRAM_VERSION = 3.2.0
 # environment
-VSCODE_PID = 6672
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
 # variable set hash-table stats:
- 
-# Load=68/1024=7%, Rehash=0, Collisions=1/94=1%
+# Load=135/1024=13%, Rehash=0, Collisions=14/165=8%
 
 # Pattern-specific Variable Values
 
@@ -159,9 +291,10 @@ VSCODE_PID = 6672
 
 # Directories
 
-# . (device 16777232, inode 6838069): 17 files, no impossibilities.
+# . (key c:/Users/PC/Documents/GitHub/microservice-kiubernetes-project, mtime 1658974424): 17 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 17 files, no impossi 
+bilities in 1 directories.
 
 # Implicit Rules
 
@@ -173,45 +306,29 @@ setup:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 9):
+#  recipe to execute (from 'Makefile', line 9):
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
 	python3 -m venv ~/.devops
-	
 
-all: install lint test
-#  Command-line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
-
-# Not a target:
-.SUFFIXES:
+lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
+	# This is linter for Dockerfiles
+	hadolint Dockerfile
+	# This is a linter for Python source code linter: https://www.pylint.org/
+	# This should be run from inside a virtualenv
+	pylint --disable=R,C,W1203,W1202 app.py
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-26 18:08:38
+#  Last modified 2022-07-27 22:39:05
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-test:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 19):
-	# Additional, optional, tests could go here
-	#python -m pytest -vv --cov=myrepolib tests/*.py
-	#python -m pytest --nbval notebook.ipynb
-	
 
 # Not a target:
 .DEFAULT:
@@ -219,62 +336,74 @@ test:
 #  Modification time never checked.
 #  File has not been updated.
 
-lint:
+all: install lint test
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 24):
-	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
-	# This is linter for Dockerfiles
-	hadolint Dockerfile
-	# This is a linter for Python source code linter: https://www.pylint.org/
-	# This should be run from inside a virtualenv
-	pylint --disable=R,C,W1203,W1202 app.py
-	
+#  recipe to execute (from 'Makefile', line 19):
+	# Additional, optional, tests could go here
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
 
 install:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: `'
+#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
 # @ := install
 # automatic
-# % := 
-# automatic
 # * := 
+# automatic
+# < := 
 # automatic
 # + := 
 # automatic
-# | := 
-# automatic
-# < := 
+# % := 
 # automatic
 # ^ := 
 # automatic
 # ? := 
+# automatic
+# | := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
-#  commands to execute (from `Makefile', line 14):
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 14):
 	# This should be run from inside a virtualenv
 	pip install --upgrade pip &&\
-	pip install -r requirements.txt
-	
+		pip install -r requirements.txt
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
-# No `vpath' search paths.
+# No 'vpath' search paths.
 
-# No general (`VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache buffers: 1  
+(0) / strings = 24 / storage = 240 B / avg = 10 B
+# current buf: size = 8174 B / used = 240 B / count = 24 / avg = 10 B
 
-# Finished Make data base on Wed Jul 27 15:55:14 2022
+# strcache performance: lookups = 38 / hit rate = 36%
+# hash-table stats:
+# Load=24/8192=0%, Rehash=0, Collisions=0/38=0%
+# Finished Make data base on Thu Jul 28 05:15:50 2022
 
  
