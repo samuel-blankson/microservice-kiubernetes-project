@@ -5,11 +5,11 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=fiifigemini/machine-learning-api
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
-# Push image to a docker repository
+# Push image to a docker repository 
