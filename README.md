@@ -51,4 +51,5 @@ source .devops/bin/activate
 
 
 ### status badge
-forward o[![CircleCI](https://dl.circleci.com/status-badge/img/gh/samuel-blankson/microservice-kiubernetes-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/samuel-blankson/microservice-kiubernetes-project/tree/main)
+microservice-kiubernetes-project
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/samuel-blankson/microservice-kiubernetes-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/samuel-blankson/microservice-kiubernetes-project/tree/main)
