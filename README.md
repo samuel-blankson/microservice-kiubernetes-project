@@ -1,4 +1,4 @@
-< [![CircleCI](https://dl.circleci.com/status-badge/img/gh/samuel-blankson/microservice-kiubernetes-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/samuel-blankson/microservice-kiubernetes-project/tree/main)>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/samuel-blankson/microservice-kiubernetes-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/samuel-blankson/microservice-kiubernetes-project/tree/main)
 
 ## Project Overview
 
