@@ -21,5 +21,5 @@ EXPOSE 80
 
 ## Step 5:
 # Run app.py at container launch
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
 
