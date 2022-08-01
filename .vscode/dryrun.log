@@ -1,7 +1,7 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory 'c:/Users/PC/Documents/GitHub/microservice-kiubernetes-project'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/fiifigemini/Documents/kubernetes-machine-learning/DevOps_Microservices/project-ml-microservice-kubernetes/microservice-kiubernetes-project'
 # Create python virtualenv & source it
 # source ~/.devops/bin/activate
 python3 -m venv ~/.devops
-make: Leaving directory 'c:/Users/PC/Documents/GitHub/microservice-kiubernetes-project'
+make: Leaving directory `/Users/fiifigemini/Documents/kubernetes-machine-learning/DevOps_Microservices/project-ml-microservice-kubernetes/microservice-kiubernetes-project'
  
